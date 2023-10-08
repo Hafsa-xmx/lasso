@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.part1{
+    display: flex;
+    justify-content: space-between;
+    background-image: url(https://www.shutterstock.com/image-photo/above-group-diverse-colleagues-formal-260nw-1727882452.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ul{
+    display: flex;
+}
+ul li{
+    list-style: none;
+    padding: 15px;
+    font-size: 22px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.part1 h1{
+    font-size: 38px;
+    color: white;
+}
+.sign a{
+
+    
+    padding: 10px;
+}
+
+.part2{
+    text-align: center;
+    background-color: rgb(189, 160, 160);
+}
+.picture{
+    grid-template-columns: 300px 300px;
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    background-color: rgb(189, 160, 160);
+    
+
+}
+.showcase img{
+    width: 300px;
+    height: 200px;
+}
+
+
